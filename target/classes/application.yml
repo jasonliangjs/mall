@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    #    springboot 2.1 之后的版本
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/mall?characterEncoding=utf-8&useSSL=false
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mappers/*.xml
