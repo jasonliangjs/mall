@@ -57,7 +57,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
+ <!-- 支付sdk -->
         <dependency>
             <groupId>cn.springboot</groupId>
             <artifactId>best-pay-sdk</artifactId>
