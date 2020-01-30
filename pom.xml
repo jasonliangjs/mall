@@ -19,7 +19,7 @@
     </properties>
 
     <dependencies>
-
+        <!-- pom注释 -->
         <!-- alibaba-fastjson -->
         <dependency>
             <groupId>com.alibaba</groupId>
