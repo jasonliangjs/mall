@@ -3,7 +3,11 @@ package com.ljs.mall.pojo;
 import java.math.BigDecimal;
 import java.util.Date;
 
+/**
+ * 使用mybatis generator生成的java实体类
+ */
 public class PayInfo {
+
     private Integer id;
 
     private Integer userId;
