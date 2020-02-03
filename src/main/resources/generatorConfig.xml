@@ -45,11 +45,13 @@
         </table>-->
 
         <!--   domainObjectName   配置指定的类名     -->
-        <table tableName="mall_order" domainObjectName="Order" enableCountByExample="false" enableUpdateByExample="false"
+        <!--<table tableName="mall_order" domainObjectName="Order" enableCountByExample="false" enableUpdateByExample="false"
                enableSelectByExample="false" enableDeleteByExample="false"/>
 
         <table tableName="mall_order_item" domainObjectName="OrderItem" enableCountByExample="false" enableUpdateByExample="false"
                enableSelectByExample="false" enableDeleteByExample="false"/>
-
+-->
+        <table tableName="mall_pay_info" domainObjectName="PayInfo" enableCountByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" enableDeleteByExample="false"/>
     </context>
 </generatorConfiguration>

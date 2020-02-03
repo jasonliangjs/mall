@@ -13,4 +13,5 @@
         from mall_category
         where id = #{id}
     </select>
+
 </mapper>
